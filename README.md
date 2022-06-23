@@ -7,8 +7,8 @@ Experience, Test Score, Interview Score are feature attributes and Salary is tar
 
 **Experience:** Total number of experience in years
 
-**Test Score:** score earned by a candidate in test
+**Test Score:** The score earned by a candidate in test
 
-**Interview Score:** score earning by a candidate in interview
+**Interview Score:** The score earning by a candidate in interview
 
 **Salary:** Salary offered to the candidate
