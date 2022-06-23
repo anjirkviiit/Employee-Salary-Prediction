@@ -17,7 +17,7 @@ def displayPrediction():
     modelPrediction = model.predict(final_features)
 
     outputValue = round(modelPrediction[0],2)
-    return render_template('index.html', predicted_text='Predicted Employee Salary: $ {}'.format(outputValue))
+    return render_template('index.html', predicted_text='Predicted Employee Salary: Rs {} /-'.format(outputValue))
 
 if __name__=="__main__":
     app.run(debug=True, threaded=True)
